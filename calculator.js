@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     let display = document.getElementById('display')
     let buttons = document.querySelectorAll('.buttons .button')
-    let equalityButton = document.querySelector('.equality')
+    let equalityButton = document.querySelector('.equality-container')
     let arrayOfButtons = Array.from(buttons)
     arrayOfButtons.push(equalityButton)
     let input = ''
@@ -15,8 +15,6 @@ document.addEventListener('DOMContentLoaded', function () {
         } else if (button.innerText === 'x') {
             display.innerText += 'x'
             input += '*'
-        } else if (button.innerText === 'x²') {
-            display.innerText += '^2'
         } else if (button.innerText === '<-') {
             let arrayDisplay = display.innerText.split('')
             let arrayInput = input.split('')

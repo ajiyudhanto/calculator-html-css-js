@@ -1,12 +1,28 @@
+body {
+    margin: 0;
+    background-color: #f5f4f2 !important;
+}
+
 .container {
     height: 100vh;
+    width: 100vw;
+    background-color: #f5f4f2;
 }
 
 .button {
     text-align: center;
-    border: 1px black;
+    color: #f5f4f2;
+    background-color: #212529;
+    font-weight: bold;
+    border: 1px #f5f4f2;
     border-style: solid;
     cursor: pointer;
+    transition-duration: .2s;
+}
+
+.button:hover {
+    color: #212529;
+    background-color: #f5f4f2;
 }
 
 .row-center {
@@ -16,10 +32,6 @@
     height: 100%;
 }
 
-.col-2 {
-    padding: 0 !important;
-}
-
 .equality-container {
     display: flex;
     justify-content: center;
@@ -27,4 +39,15 @@
 
 .equality {
     align-self: center;
+}
+
+.digit {
+    color: #f5f4f2;
+    background-color: #A88D6F;
+    transition-duration: .2s;
+}
+
+.digit:hover {
+    color: #A88D6F;
+    background-color: #f5f4f2;
 }
