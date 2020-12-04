@@ -1,0 +1,25 @@
+.container {
+    height: 100vh;
+}
+
+.button {
+    text-align: center;
+    border: 1px black;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.row-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.col-2 {
+    padding: 0 !important;
+}
+
+.equality {
+    height: 100%;
+}
