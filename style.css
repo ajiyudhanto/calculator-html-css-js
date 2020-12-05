@@ -51,3 +51,13 @@ body {
     color: #A88D6F;
     background-color: #f5f4f2;
 }
+
+.display-container {
+    height: 50px;
+    padding-left: 8%;
+    padding-top: 10px;
+}
+
+.card-row {
+    padding-left: 8%;
+}
